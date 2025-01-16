@@ -32,7 +32,7 @@ submit.addEventListener("click", () => {
 		switchButton.style.background = "red";
 
 		bulb.id = `bulb${i}`;
-		bulb.src = "/fsdphoto.jpg";
+		bulb.src = "fsdphoto.jpg";
 		bulb.style.filter = "grayscale(100%)";
 		bulb.width = 100;
 		bulb.height = 150;
